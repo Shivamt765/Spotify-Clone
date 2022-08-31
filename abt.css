@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li a{
+    font-family: cursive;
+    color: white;
+}
+nav ul li a:hover{
+    color:chartreuse
+
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.Abt{
+    font-family: cursive;
+    color: white;
+}
+.req{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 14px;
+    border-style: double;
+    border-width: 2px;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
